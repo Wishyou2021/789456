@@ -3,9 +3,9 @@ import streamlit as st
 import base64
 from PIL import Image
 st.set_page_config(
- page_title='蕭明宏VS.高木榮',
+ page_title='蕭劉賢VS.高木榮',
  page_icon='🙈')
-st.title('蕭明宏的💣定時核彈🧨,炸到高木榮')
+st.title('蕭劉賢的💣定時核彈🧨,炸到高木榮')
 confirm_input = st.button('開始製造💣')
 confirm_input1 = st.button('重新製造💣')
 if "start" not in st.session_state:
